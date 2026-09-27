@@ -8,8 +8,8 @@ import os
 
 import requests
 
-# Target the published Replit demo app.
-URL = os.environ.get("LOGIN_URL", "https://loginzip--armaans-28.replit.app/login")
+# Target the deployed Render demo app.
+URL = os.environ.get("LOGIN_URL", "https://loginpage-c75v.onrender.com/login")
 
 
 def brute_force(url: str) -> str | None:
